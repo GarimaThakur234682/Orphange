@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get Involved</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    
+    <style>
+        body {
+            background-color: #1e2120;
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+
+        .navbar {
+            background-color: #0056b3 !important;
+        }
+
+        .navbar-brand,
+        .nav-link {
+            color: white !important;
+            font-weight: bold;
+        }
+
+        .nav-link:hover {
+            color: yellow !important;
+        }
+
+        .container {
+            margin-top: 40px;
+            padding: 30px;
+            background: #2c2f30;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.1);
+        }
+
+        .form-label {
+            font-weight: bold;
+        }
+
+        .form-control, .form-select {
+            background-color: #d9d9d9;
+        }
+
+        .btn-custom {
+            background-color: #28a745;
+            color: white;
+            font-size: 18px;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: 0.3s;
+        }
+
+        .btn-custom:hover {
+            background-color: #218838;
+        }
+
+        .message {
+            font-size: 20px;
+            text-align: center;
+            color: #ffcc00;
+            margin-top: 20px;
+        }
+
+        .footer {
+            background-color: #003366;
+            color: white;
+            padding: 15px;
+            text-align: center;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="example.html">ApnaGhar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link" href="example.html">Home</a>
+                    <a class="nav-link" href="practice1.html">About Us</a>
+                    <a class="nav-link active" href="practice2.html">Get Involved</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Form Section -->
+    <div class="container">
+        <h1 class="text-center text-warning">Get Involved in Our Mission</h1>
+        <p class="text-center">Your small contribution can make a big difference in the lives of orphaned children.</p>
+        
+        <div class="row">
+            <div class="col-md-6">
+                <form>
+                    <div class="mb-3">
+                        <label class="form-label">Full Name:</label>
+                        <input type="text" class="form-control" required>
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label">Father's Name:</label>
+                        <input type="text" class="form-control">
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label">Mother's Name:</label>
+                        <input type="text" class="form-control">
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label">Profession:</label>
+                        <input type="text" class="form-control">
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label">Age:</label>
+                        <input type="number" class="form-control">
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label">Do you want to contribute?</label><br>
+                        <input type="radio" name="contribute" id="yes"> <label for="yes">Yes</label>
+                        <input type="radio" name="contribute" id="no"> <label for="no">No</label>
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label">Type of Help:</label>
+                        <select class="form-select">
+                            <option value="Donating fund">Donating Fund</option>
+                            <option value="Donating clothes">Donating Clothes</option>
+                            <option value="Donating stationery">Donating Stationery</option>
+                            <option value="Donating food">Donating Food</option>
+                        </select>
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label">Email:</label>
+                        <input type="email" class="form-control">
+                    </div>
+
+                    <button type="submit" class="btn btn-custom w-100">Submit</button>
+                </form>
+            </div>
+
+            <div class="col-md-6 text-center">
+                <img src="https://api.deepai.org/job-view-file/37d0b535-c0d9-41a0-866e-ab143529efc1/outputs/output.jpg" class="img-fluid rounded shadow" alt="Helping Hands">
+            </div>
+        </div>
+    </div>
+
+    <!-- Motivational Message -->
+    <p class="message">"Your small step can give a roof to these innocent children!"</p>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2025 ApnaGhar | Designed with ❤</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
