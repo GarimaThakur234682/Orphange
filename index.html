@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Homees</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+  <style>
+    body {
+      background-color: rgb(214, 215, 194);
+    }
+
+    .navbar {
+      background-color: #0056b3 !important;
+    }
+
+    .navbar-brand {
+      font-size: 24px;
+      font-weight: bold;
+      color: white !important;
+    }
+
+    .nav-link {
+      color: white !important;
+      font-weight: bold;
+      margin-right: 15px;
+      transition: 0.3s;
+    }
+
+    .nav-link:hover {
+      color: rgb(255, 217, 0) !important;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 50px 20px;
+      background: url('https://th.bing.com/th/id/OIP.vLGylYTivE-EnetoGIsZkQHaEV?rs=1&pid=ImgDetMain') no-repeat center center/cover;
+      color: white;
+    }
+
+    .hero h1 {
+      font-size: 50px;
+      font-weight: bold;
+      text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
+    }
+
+    .hero p {
+      font-size: 20px;
+    }
+
+    .btn-custom {
+      background-color: #ffcc00;
+      color: black;
+      font-size: 18px;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: 0.3s;
+    }
+
+    .btn-custom:hover {
+      background-color: #ff9900;
+    }
+
+    .info-section {
+      padding: 50px 20px;
+      text-align: center;
+    }
+
+    .info-section img {
+      border-radius: 10px;
+      box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+    }
+
+    .card {
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+    }
+
+    .footer {
+      background-color: #003366;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+      <a class="navbar-brand" >ApnaGhar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link active" href="index.html">Home</a>
+          <a class="nav-link" href="practice1.html">About Us</a>
+          <a class="nav-link" href="practice2.html">Get Involved</a>
+          <a class="nav-link disabled">Disabled</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h1>Welcome to ApnaGhar</h1>
+    <p>A Home for Orphan Children</p>
+    <a href="practice2.html" class="btn btn-custom">Get Involved</a>
+  </section>
+
+  <!-- Info Section -->
+  <section class="info-section">
+    <div class="container">
+      <h2 class="text-brown">A Place Filled with Love & Care</h2>
+      <p>An orphanage houses children who have lost their families and provides them with education, shelter, and a loving environment.</p>
+      <img src="https://thumbs.dreamstime.com/z/orphan-children-home-line-art-logo-design-against-white-background-53860272.jpg" width="400px">
+    </div>
+  </section>
+
+  <!-- Cards Section -->
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card p-3">
+          <img src="https://files.globalgiving.org/pfil/18234/pict_featured.jpg?t=1409544000000" class="card-img-top" alt="Children Learning">
+          <div class="card-body">
+            <h5 class="card-title">Education</h5>
+            <p class="card-text">We provide quality education to ensure a bright future for every child.</p>
+            <a href="#" class="btn btn-primary">Learn More</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card p-3">
+          <img src="https://files.globalgiving.org/pfil/33835/pict_large.jpg?m=1527840026000" class="card-img-top" alt="Healthy Meals">
+          <div class="card-body">
+            <h5 class="card-title">Nutrition</h5>
+            <p class="card-text">Balanced meals are provided to ensure the health of every child.</p>
+            <a href="#" class="btn btn-primary">Learn More</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card p-3">
+          <img src="https://files.globalgiving.org/pfil/42554/pict_featured_large.jpg?t=1582667352000" class="card-img-top" alt="Loving Environment">
+          <div class="card-body">
+            <h5 class="card-title">Love & Care</h5>
+            <p class="card-text">We provide a home filled with warmth, care, and affection.</p>
+            <a href="#" class="btn btn-primary">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2025 ApnaGhar | Designed with ❤</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
